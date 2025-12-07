@@ -5,6 +5,11 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-purple.svg)](https://kotlinlang.org/)
 
+</br>
+<img width="1599" height="866" alt="image" src="https://github.com/user-attachments/assets/48b72a5f-c74c-4c52-9104-884c0303557c" />
+
+</br>
+
 An interactive queueing system analyzer that brings Markovian queue theory to life in a European coffee shop context. Experience the mathematics behind why your morning coffee line moves the way it does, with real-time simulations and comprehensive theoretical analysis.
 
 ## 🎯 Project Overview
@@ -72,7 +77,7 @@ W = Wq + 1/μ
 mmc-queue-analyzer/
 │
 ├── README.md                          # This file
-├── coffee_shop_queue_analyzer.html    # React interactive artifact
+├── coffee_queue_analyzer.tsx          # TypeScript Interactive Artifact
 ├── queue_analyzer.py                  # Python FastAPI backend
 ├── QueueAnalyzer.kt                   # Kotlin implementation
 ├── queue_database.sql                 # SQL database schema
@@ -323,39 +328,6 @@ The interactive artifact features:
 - **Optimization**: Minimize cost = c·server_cost + customer_wait_cost
 - **Machine Learning**: Predict optimal staffing from historical data
 
-## 📚 References
-
-1. **Erlang, A.K.** (1917). "Solution of some problems in the theory of probabilities of significance in automatic telephone exchanges"
-2. **Little, J.D.C.** (1961). "A Proof for the Queuing Formula: L = λW"
-3. **Gross, D., & Harris, C.M.** (1998). "Fundamentals of Queueing Theory" (3rd ed.)
-4. **Allen, A.O.** (1990). "Probability, Statistics, and Queueing Theory with Computer Science Applications"
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-
-- Additional queueing models (M/G/1, G/G/c)
-- Enhanced visualizations (3D graphics, VR)
-- Performance optimizations
-- Additional language implementations (Rust, Go, R)
-- Mobile app versions
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-Created as a comprehensive demonstration of queueing theory principles with practical implementations across multiple programming paradigms.
-
-## 🙏 Acknowledgments
-
-- Agner Krarup Erlang for pioneering queueing theory
-- John Little for Little's Law
-- The coffee shops that inspired this project ☕
-
 ---
 
-**Why does your morning coffee line move so slowly?** Now you know the mathematics behind it! 📊☕
-
-*For questions, issues, or suggestions, please open an issue on GitHub.*
+**⭐ Star this repository if you find it helpful!**
